@@ -31,7 +31,7 @@ export const AppProvider = ({ children }) => {
   // Profile settings
   const [profile, setProfile] = useState({
     name: 'Love Maggo',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80',
+    avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=150&h=150&q=80',
     handle: '@lovemaggo',
     bio: 'Tech enthusiast, workspace setups, and coding tutorials creator. Building in public.'
   });
