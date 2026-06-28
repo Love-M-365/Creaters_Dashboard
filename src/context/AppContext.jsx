@@ -30,9 +30,9 @@ export const AppProvider = ({ children }) => {
   
   // Profile settings
   const [profile, setProfile] = useState({
-    name: 'Sarah Jenkins',
+    name: 'Love Maggo',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80',
-    handle: '@sarahj_creates',
+    handle: '@lovemaggo',
     bio: 'Tech enthusiast, workspace setups, and coding tutorials creator. Building in public.'
   });
 
@@ -144,12 +144,12 @@ export const AppProvider = ({ children }) => {
   // Brand chats state
   const [chats, setChats] = useState({
     'active-stride': [
-      { id: 'c1', sender: 'brand', text: 'Hey Sarah, contract verified. Please make sure the video mentions our Summer discount promo!', time: '2 days ago' },
+      { id: 'c1', sender: 'brand', text: 'Hey Love, contract verified. Please make sure the video mentions our Summer discount promo!', time: '2 days ago' },
       { id: 'c2', sender: 'creator', text: 'Got it, the draft is uploaded to your portal and has the code overlay in the middle.', time: '1 day ago' },
       { id: 'c3', sender: 'brand', text: 'Terrific! Our marketing team is reviewing it now. Will let you know by tomorrow.', time: '5 hours ago' }
     ],
     'active-codesphere': [
-      { id: 'c1', sender: 'brand', text: 'Hey Sarah, we loved your initial concept notes. Let us know when the draft is ready for feedback!', time: '1 day ago' }
+      { id: 'c1', sender: 'brand', text: 'Hey Love, we loved your initial concept notes. Let us know when the draft is ready for feedback!', time: '1 day ago' }
     ]
   });
 
@@ -265,7 +265,7 @@ export const AppProvider = ({ children }) => {
     setChats(prev => ({
       ...prev,
       [newActive.id]: [
-        { id: 'c0', sender: 'brand', text: `Hi Sarah! Welcome to the ${offer.brand} campaign. We are excited to collaborate. Let us know if you need guidelines or raw assets.`, time: 'Just now' }
+        { id: 'c0', sender: 'brand', text: `Hi Love! Welcome to the ${offer.brand} campaign. We are excited to collaborate. Let us know if you need guidelines or raw assets.`, time: 'Just now' }
       ]
     }));
 
